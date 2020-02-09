@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PluginManager/1.0.0": {
+        "dependencies": {
+          "Autofac": "5.0.0",
+          "Microsoft.Extensions.DependencyModel": "3.1.1"
+        },
+        "runtime": {
+          "PluginManager.dll": {}
+        }
+      },
+      "Autofac/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/3.1.1": {
+        "dependencies": {
+          "System.Text.Json": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.60804"
+          }
+        }
+      },
+      "System.Text.Json/4.7.0": {}
+    }
+  },
+  "libraries": {
+    "PluginManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U1aCHUMXuG7DDJ5JmTXF2kInXpad3Fuow+voSXEVunDHW4OkD8GDWJjleHpJPanpP+3dUQYLAM9R2lftGiQSbA==",
+      "path": "autofac/5.0.0",
+      "hashPath": "autofac.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JjNCPx5Jbk7WTjaFI9Kyq+ZRVwMJ7Ee2AmgLKraQUS8AuciAO+euxHAhlhv0AWCsVyibyRr+5USxjyc7U6VsMA==",
+      "path": "microsoft.extensions.dependencymodel/3.1.1",
+      "hashPath": "microsoft.extensions.dependencymodel.3.1.1.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IPq/x/d5nAcnD3vIyM3AbPOaTgcqrh0AqPSx7U53UFu3M6k1TH1u/eXc9/h4jm/3mpP1WRUpevlPY4PACd7AWw==",
+      "path": "system.text.json/4.7.0",
+      "hashPath": "system.text.json.4.7.0.nupkg.sha512"
+    }
+  }
+}

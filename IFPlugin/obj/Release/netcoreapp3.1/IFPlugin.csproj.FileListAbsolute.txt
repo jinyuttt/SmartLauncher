@@ -1,0 +1,8 @@
+E:\Study\SmartLauncher\IFPlugin\bin\Release\netcoreapp3.1\IFPlugin.deps.json
+E:\Study\SmartLauncher\IFPlugin\bin\Release\netcoreapp3.1\IFPlugin.dll
+E:\Study\SmartLauncher\IFPlugin\bin\Release\netcoreapp3.1\IFPlugin.pdb
+E:\Study\SmartLauncher\IFPlugin\obj\Release\netcoreapp3.1\IFPlugin.AssemblyInfoInputs.cache
+E:\Study\SmartLauncher\IFPlugin\obj\Release\netcoreapp3.1\IFPlugin.AssemblyInfo.cs
+E:\Study\SmartLauncher\IFPlugin\obj\Release\netcoreapp3.1\IFPlugin.dll
+E:\Study\SmartLauncher\IFPlugin\obj\Release\netcoreapp3.1\IFPlugin.pdb
+E:\Study\SmartLauncher\IFPlugin\obj\Release\netcoreapp3.1\IFPlugin.csprojAssemblyReference.cache

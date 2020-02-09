@@ -1,0 +1,16 @@
+E:\Study\SmartLauncher\RibbonView\bin\Release\RibbonView.deps.json
+E:\Study\SmartLauncher\RibbonView\bin\Release\RibbonView.dll
+E:\Study\SmartLauncher\RibbonView\bin\Release\RibbonView.pdb
+E:\Study\SmartLauncher\RibbonView\bin\Release\IFPlugin.dll
+E:\Study\SmartLauncher\RibbonView\bin\Release\IFPlugin.pdb
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView.csprojAssemblyReference.cache
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonMain.g.cs
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView_MarkupCompile.cache
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView_MarkupCompile.lref
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonMain.baml
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView.g.resources
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView.AssemblyInfoInputs.cache
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView.AssemblyInfo.cs
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView.csproj.CopyComplete
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView.dll
+E:\Study\SmartLauncher\RibbonView\obj\Release\RibbonView.pdb

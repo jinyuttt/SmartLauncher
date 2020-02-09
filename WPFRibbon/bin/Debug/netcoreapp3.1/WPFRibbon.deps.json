@@ -1,0 +1,2383 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WPFRibbon/1.0.0": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.All": "19.2.6"
+        },
+        "runtime": {
+          "WPFRibbon.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Charts/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Charts.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.XtraCharts.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Charts.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Charts.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.CodeParser/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.CodeParser.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Data/19.2.6": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0",
+          "System.Data.SqlClient": "4.6.0",
+          "System.Management": "4.5.0",
+          "System.ServiceModel.Http": "4.5.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Data.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.DataAccess/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.CodeParser": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.RichEdit.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Xpo": "19.2.6",
+          "System.Data.OleDb": "4.6.0",
+          "System.Data.SqlClient": "4.6.0",
+          "System.ServiceModel.Http": "4.5.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.DataAccess.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Diagram.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Diagram.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Dialogs.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Dialogs.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Gauges.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.XtraGauges.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Images/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Images.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Map.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Map.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Mvvm/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Mvvm.DataModel/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Mvvm.DataModel.EFCore/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Mvvm.DataModel": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.DataModel.EFCore.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Mvvm.ViewModel/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm.DataModel": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Mvvm.v19.2.ViewModel.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Office.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Office.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Pdf.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Pdf.Drawing/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Pdf.v19.2.Drawing.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.PivotGrid.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "System.Data.OleDb": "4.6.0",
+          "System.Data.SqlClient": "4.6.0",
+          "System.ServiceModel.Http": "4.5.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.PivotGrid.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Printing.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Core": "19.2.6",
+          "System.ServiceModel.Http": "4.5.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Printing.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Reporting.Core/19.2.6-ctp": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Charts": "19.2.6",
+          "DevExpress.WindowsDesktop.Charts.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.CodeParser": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.DataAccess": "19.2.6",
+          "DevExpress.WindowsDesktop.Gauges.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.PivotGrid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.RichEdit.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Sparkline.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Xpo": "19.2.6",
+          "System.Collections.Immutable": "1.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.XtraReports.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.RichEdit.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Images": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.RichEdit.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Scheduler.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Images": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.XtraScheduler.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Sparkline.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Sparkline.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.SpellChecker.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.SpellChecker.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Spreadsheet.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Charts.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.DataAccess": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Sparkline.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Spreadsheet.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.TreeMap.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.TreeMap.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Mvvm.DataModel.EFCore": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm.ViewModel": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Carousel": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Charts": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core.Extensions": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Diagram": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Dialogs": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Gantt": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Gauges": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Layout": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Map": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.NavBar": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Navigation": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PdfViewer": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PivotGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PrismAdapters": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Scheduler": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Scheduling": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.SpellChecker": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Spreadsheet": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.TreeMap": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.TypedStyles": "19.2.6"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Accordion/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Controls": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Accordion.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Carousel/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Carousel.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Charts/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Charts.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Charts.Designer.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          },
+          "lib/netcoreapp3.0/DevExpress.Xpf.Charts.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Controls/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Controls.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Core.Extensions/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.DataAccess": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Xpo": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Core.v19.2.Extensions.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Diagram/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Diagram.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Images": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Diagram.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Dialogs/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Dialogs.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Dialogs.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Docking/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Layout.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Docking.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.DocumentViewer.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.ExpressionEditor/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.DataAccess": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.RichEdit.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.ExpressionEditor.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Gantt/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Gantt.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Gauges/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Gauges.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Grid/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Printing": "19.2.6"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Grid.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          },
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.Extensions.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          },
+          "lib/netcoreapp3.0/DevExpress.Xpf.Grid.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Grid.Printing/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Layout/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Layout.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.LayoutControl": "19.2.6"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Layout.Core/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Layout.v19.2.Core.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.LayoutControl/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.LayoutControl.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Map/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Map.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Map.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.NavBar/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Controls": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.NavBar.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Navigation/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Accordion": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Controls": "19.2.6"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PdfViewer/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Drawing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PdfViewer.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PivotGrid/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.PivotGrid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PivotGrid.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Printing/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.RichEdit.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.LayoutControl": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6",
+          "System.ServiceModel.Http": "4.5.3",
+          "System.ServiceModel.Primitives": "4.5.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Printing.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PrismAdapters/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Controls": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.NavBar": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PrismAdapters.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.PropertyGrid/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.PropertyGrid.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Reporting/19.2.6-ctp": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Charts": "19.2.6",
+          "DevExpress.WindowsDesktop.Charts.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.CodeParser": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.DataAccess": "19.2.6",
+          "DevExpress.WindowsDesktop.Diagram.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Gauges.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Images": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.PivotGrid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Reporting.Core": "19.2.6-ctp",
+          "DevExpress.WindowsDesktop.RichEdit.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Sparkline.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Controls": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Diagram": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.LayoutControl": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PivotGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "19.2.6",
+          "DevExpress.WindowsDesktop.Xpo": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.CodeView.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          },
+          "lib/netcoreapp3.0/DevExpress.Xpf.DataAccess.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          },
+          "lib/netcoreapp3.0/DevExpress.Xpf.ReportDesigner.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Ribbon/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Ribbon.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.RichEdit/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Images": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.RichEdit.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Layout.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.RichEdit.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Scheduler/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Scheduler.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Scheduler.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Scheduling/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Scheduler.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.LayoutControl": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Scheduling.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.SpellChecker/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.SpellChecker.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.SpellChecker.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Spreadsheet/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Charts.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Spreadsheet.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Charts": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.NavBar": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Spreadsheet.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.All/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.LightGray": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Seven": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2010": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light": "19.2.6"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.DXStyle.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.LightGray/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.LightGray.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisDark.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisLight.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Black.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Blue.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Silver.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Black.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Blue.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Silver.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013DarkGray.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013LightGray.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Black.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016BlackSE.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Colorful.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016ColorfulSE.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016DarkGraySE.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016White.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016WhiteSE.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Black.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Colorful.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019DarkGray.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019HighContrast.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019White.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Seven/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Seven.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.TouchlineDark.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2010/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2010.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Blue.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Dark.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light/19.2.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Light.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.TreeMap/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.TreeMap.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.TreeMap.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.TypedStyles/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Charts": "19.2.6",
+          "DevExpress.WindowsDesktop.Charts.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "DevExpress.WindowsDesktop.DataAccess": "19.2.6",
+          "DevExpress.WindowsDesktop.Diagram.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Map.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Mvvm": "19.2.6",
+          "DevExpress.WindowsDesktop.Office.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Pdf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.PivotGrid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Printing.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Reporting.Core": "19.2.6-ctp",
+          "DevExpress.WindowsDesktop.RichEdit.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Scheduler.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Spreadsheet.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Accordion": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Carousel": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Charts": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Controls": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Diagram": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Docking": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.ExpressionEditor": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Grid.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Layout.Core": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.LayoutControl": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Map": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.NavBar": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PdfViewer": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PivotGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Printing": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.PropertyGrid": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Reporting": "19.2.6-ctp",
+          "DevExpress.WindowsDesktop.Wpf.Ribbon": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.RichEdit": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Scheduling": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.SpellChecker": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.Spreadsheet": "19.2.6",
+          "DevExpress.WindowsDesktop.Wpf.TreeMap": "19.2.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.TypedStyles.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Xpo/19.2.6": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Data": "19.2.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "System.Data.OleDb": "4.6.0",
+          "System.Data.SqlClient": "4.6.0",
+          "System.ServiceModel.Http": "4.5.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpo.v19.2.dll": {
+            "assemblyVersion": "19.2.6.0",
+            "fileVersion": "19.2.6.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46305"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {},
+      "Microsoft.Win32.Registry/4.6.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "System.CodeDom/4.5.0": {},
+      "System.Collections.Immutable/1.5.0": {},
+      "System.ComponentModel.Annotations/4.5.0": {},
+      "System.Configuration.ConfigurationManager/4.6.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.6.0",
+          "System.Security.Permissions": "4.6.0"
+        }
+      },
+      "System.Data.OleDb/4.6.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Configuration.ConfigurationManager": "4.6.0",
+          "System.Diagnostics.PerformanceCounter": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.6.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0",
+          "System.Text.Encoding.CodePages": "4.5.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.6.27110.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.6.27110.4"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.6.27110.4"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Configuration.ConfigurationManager": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        }
+      },
+      "System.Drawing.Common/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.SystemEvents": "4.6.0"
+        }
+      },
+      "System.Management/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.CodeDom": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Private.ServiceModel/4.5.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Reflection.DispatchProxy": "4.5.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.5.0.3",
+            "fileVersion": "4.6.26720.1"
+          },
+          "runtimes/win/lib/netstandard2.0/System.Private.ServiceModel.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.5.0.3",
+            "fileVersion": "4.6.26720.1"
+          }
+        }
+      },
+      "System.Reflection.DispatchProxy/4.5.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {},
+      "System.Security.AccessControl/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.6.0": {},
+      "System.Security.Permissions/4.6.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Windows.Extensions": "4.6.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.6.0": {},
+      "System.ServiceModel.Http/4.5.3": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.5.3",
+          "System.ServiceModel.Primitives": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Http.dll": {
+            "assemblyVersion": "4.5.0.3",
+            "fileVersion": "4.6.26720.1"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/4.5.3": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Primitives.dll": {
+            "assemblyVersion": "4.5.0.3",
+            "fileVersion": "4.6.26720.1"
+          },
+          "lib/netstandard2.0/System.ServiceModel.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26720.1"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        }
+      },
+      "System.Windows.Extensions/4.6.0": {
+        "dependencies": {
+          "System.Drawing.Common": "4.6.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPFRibbon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.WindowsDesktop.Charts/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ExXatvyRWNI/RRf7XZXawisNHuM3+LOc+CGiNeaqcrhii0mxfo7OBwnuvi6AWa2FCeuptKDJjStkCRkii42Hvg==",
+      "path": "devexpress.windowsdesktop.charts/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.charts.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Charts.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lFZc5ECej4BCH3ctvL1uaWUHW0b++6yWNFcKrrfhUPQoANiv8cBMbm8p8+aG7NVnqgkxv5VnoTOSfdSkIEE3eg==",
+      "path": "devexpress.windowsdesktop.charts.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.charts.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.CodeParser/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J14mILB0gz80lxAKYo5QuLrKB3V7l+59ptgXjXLLzcPvc0p0jVEMCBZx0ErJpitGECZwfr6ROtlbWPMqJq7K/Q==",
+      "path": "devexpress.windowsdesktop.codeparser/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.codeparser.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Data/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ilkKe9AOyehQKdQxw/MfBUpM0Pn2THNuh+3Z4qQvEosspe653IT+fAABilbuEhDVT3X/mE2DVG3DYwnwVAg0kw==",
+      "path": "devexpress.windowsdesktop.data/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.data.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.DataAccess/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/2DmiZtBuFgnXQ4WZlvj5k54sPpsWEgVnHJ4FmzEezIehjTxxpaapj+UQE5s8WbvEFYk7aH1v6AzEmnymCVr9g==",
+      "path": "devexpress.windowsdesktop.dataaccess/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.dataaccess.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Diagram.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z9+JML9t389TJ3xRlPZApG4NlQ/MSUdNQ2TM05G2KuTBHmbpLMuiVREBQGXkX2JnN5yIgukNhQmzaQzV8Ba6Zw==",
+      "path": "devexpress.windowsdesktop.diagram.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.diagram.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Dialogs.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ELClgtMK/7rojJH9/fHTi2jQm1cdZskrler83uNvePCF9X8KpJYHjZrd7IEorwbe/KuYtNbmrphguR+3ptCbnw==",
+      "path": "devexpress.windowsdesktop.dialogs.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.dialogs.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Gauges.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cIF7Tx1wznzYCioTMRwMjy9Q3+EMA1gWAc3xSAzA8tmF8/ywlaHWpGW1tr028yMNp5V5dgGd/BwhdGlh3dlMeA==",
+      "path": "devexpress.windowsdesktop.gauges.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.gauges.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Images/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VHKc9mR71yb5rv2yd+Wm7JkB/QSUzjwikCyPE1PraY26O5H1FE9GYxIMdmcyO6mUQc0hVEouwY9I8VJu76KK8w==",
+      "path": "devexpress.windowsdesktop.images/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.images.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Map.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v6Ae/CDrZFMsccTBVliBGWczNDhnQGhkpYmabJcg23riedea9weu6ZaV7UxDxvVk5eE3EhH65xp01WzUQWwCJg==",
+      "path": "devexpress.windowsdesktop.map.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.map.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Mvvm/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6k4KMPe/Y5VmyUF3qE3v9IV2qtQoMKYlPO+lZ++A4eycYQ4NwjNtT/YTQoM8m7cGKh9Gr5iHt6YXoJMTeVY3rg==",
+      "path": "devexpress.windowsdesktop.mvvm/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.mvvm.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Mvvm.DataModel/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g5snvOns4WuZktnKa3q+Q+lbidXdZQHWD+frw7ZjRg58mWC70IoQkOIFtUvroTQcqgJp+OtWs5FXHxU/+p3qMA==",
+      "path": "devexpress.windowsdesktop.mvvm.datamodel/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.mvvm.datamodel.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Mvvm.DataModel.EFCore/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g3qD4pR+w5k/BqVIyDZb9YyShmec6uUkHrZe+Ubb35AkafZ56yZZXvx4gRYvsqJVMmGwLyi6OiWdaySjQcisSQ==",
+      "path": "devexpress.windowsdesktop.mvvm.datamodel.efcore/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.mvvm.datamodel.efcore.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Mvvm.ViewModel/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+ibhstQRqbcu5VeKBhOlyGWT3Ou1DCnVhTqv6dUdvRY9bn5K1NEspJP1QFn/Raxhq+ICfBKifajI2pUoqWfVmw==",
+      "path": "devexpress.windowsdesktop.mvvm.viewmodel/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.mvvm.viewmodel.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Office.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c+wy4zO6orJ3Po3v5AxUtAP7TNfNrFlcDPHdtxtIcSdKIwHQSecNHUDRyvHOJaKtbtW5CpgaaBBjjzk6QbGeHQ==",
+      "path": "devexpress.windowsdesktop.office.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.office.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Pdf.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hoOd2G0X7cKoHbwf0WLaaXu+qbSo6brSLQdnHoa1sZZZrnIYU9QAtjFpyS4PI1rZyfCaLBqUvgFxn1l89WB9Sg==",
+      "path": "devexpress.windowsdesktop.pdf.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.pdf.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Pdf.Drawing/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UDzgwECHbt1H0iaAdylaoqboa+N/BMHFc+UUarbtn4drj3AforLk0M8txWxIPgpEDcF1tsIJ79Bw0bieEv/y+A==",
+      "path": "devexpress.windowsdesktop.pdf.drawing/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.pdf.drawing.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.PivotGrid.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tX5e5gFC0/0/yYBqrFkwgtQXFiibvXnTjrjQuecdUdtdDKig5sOM21h9NITWMpvey5wuHVV+NLSyclUBZKu2lQ==",
+      "path": "devexpress.windowsdesktop.pivotgrid.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.pivotgrid.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Printing.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TPqd0K3s7WVWDkGt45mEfwYBuwr+EudU7QVY6nRGmx3ihZz/ersbVVlIc3GqrmVNjXdEg0v9lWIHUvL9y2tu4w==",
+      "path": "devexpress.windowsdesktop.printing.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.printing.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Reporting.Core/19.2.6-ctp": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nThVWJS5Pce7bum4Z+At5cs+eeKSDS6jLi6nf70pTsLZVWWAzUH4n6ydZt1R7VaZ9+JjTIAnH8geILRqdjb53w==",
+      "path": "devexpress.windowsdesktop.reporting.core/19.2.6-ctp",
+      "hashPath": "devexpress.windowsdesktop.reporting.core.19.2.6-ctp.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.RichEdit.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wnlwpmCvcRXCG1WBiWshofo+C8uMR0+Z1miglAKbuhhtEKEY572tmBnlEz91hxhDaQmPdwaU5VaYnQkyB+f/sw==",
+      "path": "devexpress.windowsdesktop.richedit.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.richedit.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Scheduler.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B72R6bcbXQ+9dKhbAcS6c1XH1CgDPo62WE5zYlBFY0yK/yjI9YPi4I31Fe7IrbsYYBxYTRWqbczshTWEQpxWvQ==",
+      "path": "devexpress.windowsdesktop.scheduler.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.scheduler.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Sparkline.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gndVTO5qGtk1Nz8B2CLqivAUKsfEj4AsEGUc98Frb7TstftQDVqxXR57oobzb+S3JnhuRFgw8iahJ54/gXwORg==",
+      "path": "devexpress.windowsdesktop.sparkline.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.sparkline.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.SpellChecker.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WsYaPRnXkqKShE54RsQIHLmarnc0GYLzBZnHIpfZg6Lyh5w1M6zpgJlSg7cx2Juwer0hXrFKu2C+8JqfX/3Bog==",
+      "path": "devexpress.windowsdesktop.spellchecker.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.spellchecker.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Spreadsheet.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iDNMD5ArQan/oUmsBV47yxgWFp6lzLhZPyR+fZXmlS8TMpIJdE5kqc0gJZnL2pOllc2C/7jgA//Tf/u3NB4aFQ==",
+      "path": "devexpress.windowsdesktop.spreadsheet.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.spreadsheet.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.TreeMap.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W0+B/XidlibZalpDeswQvKMQKaIZ6INSTJCli0dV1fcn2b5v2tnxjhDV50YRP4xehBO0iUI5ntV8khxOjR4tUQ==",
+      "path": "devexpress.windowsdesktop.treemap.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.treemap.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z5717M4NxXjA6/MkFnpNuyUdRa/KvJ3aLSWT5aygO/E9GhctLMmuYVBTTVB7g+5T/Wst/fVEQr0e59QGOGYn5Q==",
+      "path": "devexpress.windowsdesktop.wpf/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Accordion/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LDU4XjbvLoe3b9ZEcZdg+ICDPQuBSrJHAJVeZKHJm5iB9mdWaDeaOMf36g8Il8je3m4UTWypYzMp9u8LTqTTuA==",
+      "path": "devexpress.windowsdesktop.wpf.accordion/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.accordion.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Carousel/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jH8b9jGl89HxX6hC8HHcsucgXFOnIwBBLLRNi5Jq0krnalLs1xh52Ui5Qs2lqPkP+3qqlanw+jn94kcrr+INjg==",
+      "path": "devexpress.windowsdesktop.wpf.carousel/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.carousel.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Charts/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XVUIKDfGNhLaAdasdkGlzXmcHa196o1RRCCOMM5oU+0cOdn9EapNPCKeJUNxkgMBQQ8nmW/S221Ttr4A/D0kbA==",
+      "path": "devexpress.windowsdesktop.wpf.charts/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.charts.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Controls/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8VKuN0Br0dgvp3srqnhf47kUDFseqCCChEhGBzapO8k8rXP5rVHIDRfFyse4zlMfG0W2AFQP9siZu3mW6YyMMQ==",
+      "path": "devexpress.windowsdesktop.wpf.controls/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.controls.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8rY1s7DnZ09bXvsHi/LSjYhjxSAOnVSHy/FKP5u/dTXYHWOuK+DPFjMBYdOCHsXhAgAD6Kbf9Qur+r5SUDfX6Q==",
+      "path": "devexpress.windowsdesktop.wpf.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Core.Extensions/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HstSWnGCcyZ9Tyy2nlwjTo6HzezAiooZ01OBrD1nYFJGuphLE20bclMTNXQW7aG4wfr2iCNxNvoAnLEBPGKPlg==",
+      "path": "devexpress.windowsdesktop.wpf.core.extensions/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.core.extensions.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Diagram/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/ixtnfVyiwwBNqAt+9Acu76DIDjjicqeMYBRibt4kqE6wLqSBnmp6D13Ju7JOsWSb0sDJvjSdsvCg3Jc9I4l/g==",
+      "path": "devexpress.windowsdesktop.wpf.diagram/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.diagram.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Dialogs/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-noYmFcEnH+L8KTn/EaCksEvUZ0s8nLBK+cHtebhCLH+bBBg9ZA4QQBOMpI9MpP0Xs5v8+8vqcwH6DI2qCUoZIA==",
+      "path": "devexpress.windowsdesktop.wpf.dialogs/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.dialogs.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Docking/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zohm7/zzBkX/axAOpspUMBFZbaJauWJCgIQexLejMvE77eNkQypHbs5X5gqk8NX3cNMHJ4/6QV6HbR7+LR2pYw==",
+      "path": "devexpress.windowsdesktop.wpf.docking/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.docking.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.DocumentViewer.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/PJ45XlQXEO4fOqNuGo1GMBWcWkmOJUhCS614yEuFoXWopAhjibVtn87/talx00nfWsd+5FlRX2zyBKRSXsTjA==",
+      "path": "devexpress.windowsdesktop.wpf.documentviewer.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.documentviewer.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.ExpressionEditor/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9BqgYtN/EtbXj0UgBv7tuxxbmZKFnTWkROQNjGgrbXSGhpRc9N5k9GAuKAK1enNclZGRo6hgQnYwkof5tm0Sgw==",
+      "path": "devexpress.windowsdesktop.wpf.expressioneditor/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.expressioneditor.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Gantt/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vfca1Ed8Z10ChZjro60wLfHahygtJiRtlvc604iE+tseE5+jwcW522OJC9Q24xWJmEwWxxS3lrQS/t9GZkEIAw==",
+      "path": "devexpress.windowsdesktop.wpf.gantt/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.gantt.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Gauges/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rMTNAnQZCun05eKvTZqyLe1+N7svlVzFYYULpLBlnoz9tRhFZHkjIM7i9+MA3nEi9QPsjqwn6UnzD0S3SxYStQ==",
+      "path": "devexpress.windowsdesktop.wpf.gauges/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.gauges.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Grid/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FcLrF15+n4/qJKDcPS8gTFpZ+yjNgnv3K7KREuTxSFKMPCtMJtJUNpsTuj/o1chUvk3A6R1kQRbGAu2xofYynQ==",
+      "path": "devexpress.windowsdesktop.wpf.grid/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.grid.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Grid.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YWQg7y14VF4BFPFKnz5vx9SNjfRyGzarZcbARaEhj+MVz7abYFaAOVYmdnsrv+4WJyjqi1RXm27j113aCaa6VA==",
+      "path": "devexpress.windowsdesktop.wpf.grid.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.grid.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Grid.Printing/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LXC6JbARX8Eb5ZjU0BLd0sqfPdWO20pKdZCL6YZehF9DxZUEeNifOJZMdYczsyJG3i+JNXw6LVW6uEubeChbRA==",
+      "path": "devexpress.windowsdesktop.wpf.grid.printing/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.grid.printing.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Layout/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Bd4xeamMACH0KZaz5uHDtoPfeJoNNhK72zXRzrkt4yafLxt21SFX+a0DjPHDxAFSiYG4ugzCxI5ci/JmBuN7A==",
+      "path": "devexpress.windowsdesktop.wpf.layout/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.layout.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Layout.Core/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g1Nii4WRfDasyG87Befnp3hbqVnKnSlFBcBb2JP9MvxZODopOVxgpRbjkZ+2lAK/3b74lFKf0LsmOsveQ1+oaA==",
+      "path": "devexpress.windowsdesktop.wpf.layout.core/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.layout.core.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.LayoutControl/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Kw6ZRlI7lmbmTzqFB2nE514HjDHdCVmC+/bUuNPVf71oJJPoNWNt3SE2vlCUqJD+vB+T9tiND07SeB1uUuqvQ==",
+      "path": "devexpress.windowsdesktop.wpf.layoutcontrol/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.layoutcontrol.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Map/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ELVi2TO2ZbVWCF4A5JvU6fHvQ6QVZtsG/1h7xczKliRMjaP7YNVvffv+cWU7Z95XjAEAeGnWWFlbqXxsnvg7Q==",
+      "path": "devexpress.windowsdesktop.wpf.map/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.map.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.NavBar/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xEl+GpvZOHGViLrv/Xt5wBBE3tdVBcXpy37hrr12c4r9A11a4Yi0/jcO3flHj0qFkYiCuQjQPLbAKaKkZxUQsg==",
+      "path": "devexpress.windowsdesktop.wpf.navbar/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.navbar.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Navigation/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JkCUfLWqSECo1qENLU2gbEA5xcocp0S6pp7KPIhB+DVhrxLtCwQFzR7QpZQnCT1qcxwEmNsqgG7fgFsi90BMAg==",
+      "path": "devexpress.windowsdesktop.wpf.navigation/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.navigation.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.PdfViewer/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zyzKD0bFXrfvvg0EiK7zu+tQ81qOCYDqXNrEzafi/GJagefTBTMFrdOgr/DYbx2NSzbLCjT5VUfidn7MR9Csbg==",
+      "path": "devexpress.windowsdesktop.wpf.pdfviewer/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.pdfviewer.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.PivotGrid/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HceErDuRwwJMxVLs/5KdXXyHG1JPyQ3l4ZI16IDSG2xkMINdyZ8srC78ZHoavM28+UQRZM1/Q4QBc4ZPgqpNfA==",
+      "path": "devexpress.windowsdesktop.wpf.pivotgrid/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.pivotgrid.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Printing/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YpZ/rp5zKRmDo4MwE/pQANughQFB9OLTeR7rljETNPmYaI9Mm8OJpMiDrrX29s6PV4J53PLR5VRHMeqMSlkMww==",
+      "path": "devexpress.windowsdesktop.wpf.printing/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.printing.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.PrismAdapters/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fpBIcSyWEwJwmfE3bb9XR/4DjDVW59YtZsnqV4WiyXix8RV0nqS8qwvw2VzO9N+WebW+9qYy/XxVAuuJayFwNw==",
+      "path": "devexpress.windowsdesktop.wpf.prismadapters/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.prismadapters.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.PropertyGrid/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6IbGVcV25uOkwyj90wzqfGAHZM+3Ta78KEaYV0uXVDPSMoLR263ytmPYV1dQVp2zWFVIkNYBgLZJ7j6u0CKoIQ==",
+      "path": "devexpress.windowsdesktop.wpf.propertygrid/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.propertygrid.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Reporting/19.2.6-ctp": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XmDD2MkH23BGqNPZgoVb6If+17NiYLEgcEaccjGw3KHrf6QeSvymnGl3Z8iHBwc7YpoaNxZkf47Lr+GPIfMskA==",
+      "path": "devexpress.windowsdesktop.wpf.reporting/19.2.6-ctp",
+      "hashPath": "devexpress.windowsdesktop.wpf.reporting.19.2.6-ctp.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Ribbon/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vx6AOeNM+FFdKPZAxdmn96cQ5zjKW4K7Axj741HsAZlg8c/3oQEeQpETmbjpopuNInnTelJwQY2e6yTs44zW3w==",
+      "path": "devexpress.windowsdesktop.wpf.ribbon/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.ribbon.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.RichEdit/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2XnirCQwzXh75PinY/9VTBowfb4wUHTTwqpvHVw4IFTPNMzG2eCUWdmFDFGNGD+7XKtazW5zgxMoEOARoaN3Rw==",
+      "path": "devexpress.windowsdesktop.wpf.richedit/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.richedit.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Scheduler/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8q9MNUQezdbMOqqrv9x76m03r06TLoceBx9Bis9pAxXwhvpCyQTGbpjo+yU4dQqH6mJJf84x5c/fXXtRBYob7g==",
+      "path": "devexpress.windowsdesktop.wpf.scheduler/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.scheduler.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Scheduling/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B/jVaYuWIY1ncsPNYwN7GcM/ickUMsY6ylp3vfKMxXa5yegC3BfznV7UU1+Lru8L/Z9mLaSghrhTzyErFRIYug==",
+      "path": "devexpress.windowsdesktop.wpf.scheduling/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.scheduling.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.SpellChecker/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PkAIv1Kh0rhgsVL/ZyIj4VXCcYXlWTyvzXDaoX5QFAMAcPGFKHw0uFtKtWnuoyTgCJKNHfch3JgfhlO/6k8pqg==",
+      "path": "devexpress.windowsdesktop.wpf.spellchecker/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.spellchecker.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Spreadsheet/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KoRrt/dU6jpES4NJAyK+PuJ07+1vZQKhIpO//xjv76+44sMqP/6WvWVw4PA1NPwXcppS8LzBc7xTU0dnjO/dgA==",
+      "path": "devexpress.windowsdesktop.wpf.spreadsheet/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.spreadsheet.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.All/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CyQ5lp/xukTFsNgGwhcESHCIWicocfZNjPG5+/FcVALXe1vsTqllKVsrUiLl51c1JR7hij5eHk0NqvKVf4HJKQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.all/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.all.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y2OgMus21WikYVrItz50IS7hMxTZysHQNMJ8rFWVr963wUOiLaMOH+lXet0+C5K0UqAhfd3EeBw6hADVGWcNDQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.dxstyle/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.dxstyle.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.LightGray/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/hTqM1q8Gr7IL/XUGvYeCIfC66+Kutplj1PfbnYp1gvwL7XYWTlL0uehArt0bnfJScsN/KTgIMtFPlTSJx+yRg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.lightgray/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.lightgray.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L2LlEvhZvx5SnLRd5ZIeiDelbD+g36TMxBmKFhfZblxZq3woczYf7Y5+sjFnpjkCuo2+8nhxplLZFFNaqYe8WQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.metropolisdark/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.metropolisdark.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZR19DnFVcOeu/QJE5vh8DAxPMZm4yZcrfmWSNgNA0Uz5JuQidDhybP1Ij6NDBTYNvKOEGCzz0A7H9LTB+zLayg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.metropolislight/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.metropolislight.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aeVNbJIjnlq/kTy1iNUrXKOoxW5uGOUD3SvIPoJGuBiSjAGDGZLegiVv/52Bp7KP6fQwGitmIdDrQ8Yf4isbsA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007black/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2007black.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cAm1Qoo8NBSj5GUb/IudoJcOy3CfImZ8VjoTSL2wY5ToZwQE5xcTMFO6AUGQoXH5+XC2Y5qXyad0SztH3m3Xvw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007blue/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2007blue.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yQPjXLSyUmCdHof3UX+RPTuC+xo8rEaj3luXNDiCXepdJwzz3RWNn2Y4LaR6Jgxvma27/tTCpc3KFdYe8HKQEQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007silver/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2007silver.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BMDS1kjVfIHVHMrqB7e6yvsWzIFiUJXx14tpTl4o5AiI38hKl7MgqmVZBKu3R+eiUsp/AkRJogxhoI/iIQK9EQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010black/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2010black.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LO2aUOlpMIVIEBWNl4IjSKBjyorPyfVZqh4ny1qM+yvC89tTJDJCoOM+xqv6CdB8nRhJDo248edXtv+I2oHRHw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010blue/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2010blue.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yQ6lSbuqBcRrXESTmDk8qi8vCqjw36gYNmctqXcajtuaAPMVTiYLhyjH2UNKOimqoiicSH0dfNzgIJgW68foPg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010silver/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2010silver.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q2S53xhl4l7dnN7JiHdTGW3tnrWrjvqUi4xVcNN9MtPfHP0ZH/Z8kH2XG4IjigHa/KWErqNHB7hiwjEO2oa0Fg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2013.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ZWATRwR7oFXhsGb0ghAKctk4cVgBjwTR0qwpe8zC4PYz1E37oQKj5uvigrzhbpJTsLi5YPg193P1ccOo7RzaQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013darkgray/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2013darkgray.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H5wzc5vddUt6xwC2D5bwY7XytBxantSp7ETuhsxI+QRcRU58hA+XOVFQ8VENkUiiCY34+qjPM5wmBvJ5Wwennw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013lightgray/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2013lightgray.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WUE6+xETIZBinr2TQDvzSAlwSJ9EZLOGi7v7gngADuBLvFKcuzINOeytdrAwyau8RxfGRm32KvtfrzW/aOdbig==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016black/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016black.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PR9k/eXoOdJeze+om9zAtDZ+EoRzYLVLngjBtT5Lj+AV7xVhsk/Ej0xNbbqbvneOksx3aw+XShWCAT+2UV6DLQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016blackse/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016blackse.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UUiZ9xr9HWGxkQupWeGNLuhVIISUWgUhb8iXaO4vdUVcKuQ9ST8AFaTyRJQiaNorKBUhs6mlFtywrBwGYgRMHw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016colorful/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016colorful.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YH74QUWBKsaqp5l/6OhDdZfOGTwCUFUIImd46tPGtJuyaK9OamKjLinY+STX8IOO1/7I/gDF2qFfrA5XmL31MQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016colorfulse/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016colorfulse.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qQFiR7e+uZ0TNwQRdwI2zMZwHYfDgMkdqpOfxxSBkyMoflaCCP8/HQt7TzUoRzVgyVTXfIqsyh8kp6WF5jcrJA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016darkgrayse/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016darkgrayse.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jpykV7IpFTUNif6p2aPdLkbkhMEW6DkezAGvY7CP7g6ttIwtRKvR0snA70Vf1vMmLk2Fk/Th53o+m0m2TY7iCQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016white/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016white.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4eoeMpc1MEfKeN3Mp0jZRKvwuML39NUEFbsXvTmiN45iPuubQj7U77J2ecZyPluYTTB7wBNHt9xMc9WROMcsCw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016whitese/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016whitese.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X5J06mxayQwM7yIzYIZ+ULpX8j4C7rvGVQFgRKh0D/00OFWomIzXBRNeiJXbbQDNVFEnigzYKgO8yZGjSdNF7g==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019black/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019black.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m8mOI7csqlydhYITbiCA6w6cCpWzCUviR4YVjyaxOOOvOKLfd9uU7gYApRXH6kpig2c7i2dJc5HvYF/9BtO7MA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019colorful/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019colorful.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DToCs4vqqtKUGpasQPM0rAFXmyRPdHFGNpYlQ+y+GGBND1wNkIlTYy3294dkU5vNQMELcqO2BZX00JWKDG7zeg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019darkgray/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019darkgray.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zEdx+0wn5+ZdFaYpgQzCr+yU4PmuJV8oQl8z/VRVjRActJACYYax9B86v3lNnoSaZl5C2+2YWTd8/XLQpWg5fQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019highcontrast/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019highcontrast.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x62LuCr0LKVNYcKJrSNBeSla3V2eQCK2XZUuTOrSK2v+VWRcXwnFsRsjR8QhUFnId9LIh4tcn8m4pujiLoKX1Q==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019white/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019white.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Seven/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sM+TT9kD6gpGqD8nDs7e/gMxRWJsTncXH9+npbmv2gzu4hd5v5uWuOAfxTln6BRLxc4ooMmI+O0kiyKCNAz3Tg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.seven/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.seven.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3isEo12VXkTwGrAJeZs6O3oNX7EtH7Md3aWMW+iSW4tgz6LJi7C4CeRhG/X4Wo8uYoQ3qrShgyuocYZ90n6w/Q==",
+      "path": "devexpress.windowsdesktop.wpf.themes.touchlinedark/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.touchlinedark.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2010/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VTV5IQ1qaL92uNtUvJJJSmp45m7U7ysH9/i+zrHz+n2763A4FeZ9n8U+EyUMWCiVu+k3KIQFICCl+vNj+I//Jw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2010/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2010.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EIWG8ZNTHpxKeLz/fzCDwD50cJpW1Nu0fjCOjKoaL3x8uJsS3kYhGnDIEVGkWyKbAE67OtE1/eQybOnNdhRZzw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017blue/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2017blue.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ynsom6eNziFXz/dGUN3goRZW6U69FvaKOr7OKImYY25/p29CWQd4RBSTFJaAuQf12qjCS0Pb2uRRcQEheQnHjA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017dark/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2017dark.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-23f6qU7YvC/C6HS3ZEo7POTZVt97+/wwVvCziPJRtBsYIaDd/yrKFE3y9t0GjY+tXRoiASWn/i9JF9wTwmfCVQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017light/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2017light.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.TreeMap/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2IPiePq6krg4nuyY5TKwmbg9pxxWfBbcucnuLkTRWmdvU3FhAqiBBYr0ostV8Osx/sXEC0J78/gRuT7bNPBsNA==",
+      "path": "devexpress.windowsdesktop.wpf.treemap/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.treemap.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.TypedStyles/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NerK1fv0zTgJ02V11FHs+6XwexL8njbTQQBYt2YAk9kLEgb5ygex9f4X6k8lhaHH7cFF6jSBTJ5jvWtMFShR3g==",
+      "path": "devexpress.windowsdesktop.wpf.typedstyles/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.wpf.typedstyles.19.2.6.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Xpo/19.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-92ZGapV3uaN+WCd+96MH62HBFfU5iv1J/9AAZV7EG9k6+GpCqy9GW8WvJB+fBDh6W/kMcZq4DPbc0+l6tkKqjA==",
+      "path": "devexpress.windowsdesktop.xpo/19.2.6",
+      "hashPath": "devexpress.windowsdesktop.xpo.19.2.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ofQRroDlzJ0xKOtzNuaVt6QKNImFkhkG0lIMpGl7PtXnIf5SuLWBeiQZAP8DNSxDBJJdcsPkiJiMYK2WA5H8dQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "hashPath": "microsoft.netcore.platforms.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xuqo5Lf5h1eUAbT8sJwNSEgusyEcQQQcza1R8dxJ6q/1vLSU1SG/WxtgiCPAth14dz/IjBXCxWT/+6E9glX33w==",
+      "path": "microsoft.win32.registry/4.6.0",
+      "hashPath": "microsoft.win32.registry.4.6.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Edg+pFW5C8WJb680Za2kTV8TqUi6Ahl/WldRVoOVJ23UQLpDHFspa+umgFjkWZw24ETsU99Cg+ErZz683M4chg==",
+      "path": "microsoft.win32.systemevents/4.6.0",
+      "hashPath": "microsoft.win32.systemevents.4.6.0.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AJfX7owAAkMjWQYhoml5IBfXh8UyYPjktn8pK0BFGAdKgBS7HqMz1fw5vdzfZUWfhtTPDGCjgNttt46ZyEmSjg==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.CodeDom/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gqpR1EeXOuzNQWL7rOzmtdIz3CaXVjSQCiaGOs2ivjPwynKSJYm39X81fdlp7WuojZs/Z5t1k5ni7HtKQurhjw==",
+      "path": "system.codedom/4.5.0",
+      "hashPath": "system.codedom.4.5.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gkNklXxdmB3r4SQTUzRhESZAb3MotgDz24XYi2R/bIjJ10SF0KHJ/qTEwi9CLyIAOTjmCo8Vx8+rKldLaiW7Ig==",
+      "path": "system.configuration.configurationmanager/4.6.0",
+      "hashPath": "system.configuration.configurationmanager.4.6.0.nupkg.sha512"
+    },
+    "System.Data.OleDb/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-deacmfBwOpdhYz4uYAcTX/ji34Hm35ZkB1Qt//5wmpfsT8UpDmPEI/+/3s9fPCTItA4QdfHHrpbsouxv16andw==",
+      "path": "system.data.oledb/4.6.0",
+      "hashPath": "system.data.oledb.4.6.0.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gwItUWW1BMCckicFO85c8frFaMK8SGqYn5IeA3GSX4Lmid+CjXETfoHz7Uv+Vx6L0No7iRc/7cBL8gd6o9k9/g==",
+      "path": "system.data.sqlclient/4.6.0",
+      "hashPath": "system.data.sqlclient.4.6.0.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hzNEIJ58VQtTlL12T3EZ7ChDBjDnVra1d4CICe5jM64AK1Lh7jqJvFTXTqp7l3ez2yIzfp/OJWKrQ4Glab4nLA==",
+      "path": "system.diagnostics.performancecounter/4.6.0",
+      "hashPath": "system.diagnostics.performancecounter.4.6.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2A3spjjoPZnvpVh/sDTzd+0H8ZqTdr+hH/6obB8MMfG81EJ85PmxCKDBxhBVQiA25PliKAZ1sKogDcq9mSnFEA==",
+      "path": "system.drawing.common/4.6.0",
+      "hashPath": "system.drawing.common.4.6.0.nupkg.sha512"
+    },
+    "System.Management/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z6ac0qPGr3yJtwZEX1SRkhwWa0Kf5NJxx7smLboYsGrApQFECNFdqhGy252T4lrZ5Nwzhd9VQiaifndR3bfHdg==",
+      "path": "system.management/4.5.0",
+      "hashPath": "system.management.4.5.0.nupkg.sha512"
+    },
+    "System.Private.ServiceModel/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ancrQgJagx+yC4SZbuE+eShiEAUIF0E1d21TRSoy1C/rTwafAVcBr/fKibkq5TQzyy9uNil2tx2/iaUxsy0S9g==",
+      "path": "system.private.servicemodel/4.5.3",
+      "hashPath": "system.private.servicemodel.4.5.3.nupkg.sha512"
+    },
+    "System.Reflection.DispatchProxy/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+UW1hq11TNSeb+16rIk8hRQ02o339NFyzMc4ma/FqmxBzM30l1c2IherBB4ld1MNcenS48fz8tbt50OW4rVULA==",
+      "path": "system.reflection.dispatchproxy/4.5.0",
+      "hashPath": "system.reflection.dispatchproxy.4.5.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmlk6khICtVhiUnVBBtlsH0H/5QFDqhTZgtpp3AX14wWE6OIE+BX95NLD+X4AolXnIy/oXpNNmXYnsNfW1KuDQ==",
+      "path": "system.security.accesscontrol/4.6.0",
+      "hashPath": "system.security.accesscontrol.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zdCsTOakmbAQVyOI6+ZadvXZgzSiFiY5nXAfGUQNGrz3ofc9sjehpXRvqYb3vWUsvloYFILSpiQCjiZVFKRBjA==",
+      "path": "system.security.cryptography.protecteddata/4.6.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W3Uxog9KCZAmGYsOFHgJnb7L2q+SDbxS3vGnFHmErUnXuIjWYpIh1KVTlua7qmPdrlRCkAcTF9dImv+jciBPOQ==",
+      "path": "system.security.permissions/4.6.0",
+      "hashPath": "system.security.permissions.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mdukseovp0YIGaz16FMH6nbfgZkrCFOJbtXQptv0aeBO9h775Ilb9+TDwLVTKikoW7y7CY7lpoXl9zmZ5G3ndA==",
+      "path": "system.security.principal.windows/4.6.0",
+      "hashPath": "system.security.principal.windows.4.6.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Http/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zxR4z6G/FFK/uAUbo7+3IJOqm0w4/lyfHSQDf+hhUHRTc7XSeReGS5iKQq95gyl1ighHEuayqOiB7iacrB6ZUg==",
+      "path": "system.servicemodel.http/4.5.3",
+      "hashPath": "system.servicemodel.http.4.5.3.nupkg.sha512"
+    },
+    "System.ServiceModel.Primitives/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wc9Hgg4Cmqi416zvEgq2sW1YYCGuhwWzspDclJWlFZqY6EGhFUPZU+kVpl5z9kAgrSOQP7/Uiik+PtSQtmq+5A==",
+      "path": "system.servicemodel.primitives/4.5.3",
+      "hashPath": "system.servicemodel.primitives.4.5.3.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GL4izk0KgeyXklUOHViAk7y1IOYVYcn8nDpJZgcCqNzTGv2xd+8rgGgMKMo8G9nvfEuRCrNxWnGc74EiuYH2YA==",
+      "path": "system.windows.extensions/4.6.0",
+      "hashPath": "system.windows.extensions.4.6.0.nupkg.sha512"
+    }
+  }
+}

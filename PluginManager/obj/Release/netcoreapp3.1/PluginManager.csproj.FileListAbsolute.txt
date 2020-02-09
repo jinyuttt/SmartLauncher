@@ -1,0 +1,7 @@
+E:\Study\SmartLauncher\PluginManager\bin\Release\netcoreapp3.1\PluginManager.deps.json
+E:\Study\SmartLauncher\PluginManager\bin\Release\netcoreapp3.1\PluginManager.dll
+E:\Study\SmartLauncher\PluginManager\bin\Release\netcoreapp3.1\PluginManager.pdb
+E:\Study\SmartLauncher\PluginManager\obj\Release\netcoreapp3.1\PluginManager.AssemblyInfoInputs.cache
+E:\Study\SmartLauncher\PluginManager\obj\Release\netcoreapp3.1\PluginManager.AssemblyInfo.cs
+E:\Study\SmartLauncher\PluginManager\obj\Release\netcoreapp3.1\PluginManager.dll
+E:\Study\SmartLauncher\PluginManager\obj\Release\netcoreapp3.1\PluginManager.pdb

@@ -1,0 +1,14 @@
+E:\Study\SmartLauncher\SmartLauncher\bin\Debug\netcoreapp3.1\Plugins\RibbonView.deps.json
+E:\Study\SmartLauncher\SmartLauncher\bin\Debug\netcoreapp3.1\Plugins\RibbonView.dll
+E:\Study\SmartLauncher\SmartLauncher\bin\Debug\netcoreapp3.1\Plugins\RibbonView.pdb
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView.csprojAssemblyReference.cache
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonMain.g.cs
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView_MarkupCompile.cache
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView_MarkupCompile.lref
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonMain.baml
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView.g.resources
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView.AssemblyInfoInputs.cache
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView.AssemblyInfo.cs
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView.csproj.CopyComplete
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView.dll
+E:\Study\SmartLauncher\RibbonView\obj\Debug\RibbonView.pdb

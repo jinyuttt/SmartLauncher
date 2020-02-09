@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PluginManager/1.0.0": {
+        "dependencies": {
+          "Autofac": "5.0.0"
+        },
+        "runtime": {
+          "PluginManager.dll": {}
+        }
+      },
+      "Autofac/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PluginManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U1aCHUMXuG7DDJ5JmTXF2kInXpad3Fuow+voSXEVunDHW4OkD8GDWJjleHpJPanpP+3dUQYLAM9R2lftGiQSbA==",
+      "path": "autofac/5.0.0",
+      "hashPath": "autofac.5.0.0.nupkg.sha512"
+    }
+  }
+}
